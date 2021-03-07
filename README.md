@@ -1,5 +1,6 @@
 
   <h1 align="center">Min Cost Arborescence</h1>
+  
 ### About the project
 1. This project is the c++ implementation of Edmond's Branching Algorithm to find minimum cost arborescence.
 2. Find details about the algorithm here: https://drive.google.com/file/d/1k9FDRx2BQ49y0B5egzCysGSjCXWnwB6-/view?usp=sharing
