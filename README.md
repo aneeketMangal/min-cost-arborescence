@@ -19,7 +19,7 @@
 * Whenever choices with equal considerations, prefer to consider vertices in lexicographic ordering.
 
 
-## Output format
+### Output format
 
 * For each test case, print <b>2N+1+1</b> entries (all single space separated)
 * First entry is the total sum of min cost arborescence
@@ -31,7 +31,7 @@ which one reaches i-th vertex (basically second last node in path from source ve
 0 if no parent i.e. for source vertex and -1 if vertex i not reachable).
 
 
-## Instructions to run
+### Instructions to run
 ``g++ main.cpp -o main && ./main<testCase.txt>output.txt``
 
 
