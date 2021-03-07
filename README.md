@@ -23,12 +23,9 @@
 
 * For each test case, print <b>2N+1+1</b> entries (all single space separated)
 * First entry is the total sum of min cost arborescence
-* Then N entries corresponding to vertices V1, V2, V3..., VN providing the distance of i-th vertex from the
-source vertex s. (print -1 if unreachable)
+* Then N entries providing the distance of i-th vertex from thesource vertex <b>s</b>. (print -1 if unreachable)
 * Then print symbol <b>#</b>.
-* Then print N entries (corresponding to vertices V1, V2, V3..., VN) providing the label of the parent node through
-which one reaches i-th vertex (basically second last node in path from source vertex to that i-th vertex. (Indicate
-0 if no parent i.e. for source vertex and -1 if vertex i not reachable).
+* Then print N entries  the label of the parent node throughwhich one reaches i-th vertex (print 0 if no parent i.e. for source vertex and -1 if vertex i not reachable).
 
 
 ### Instructions to run
