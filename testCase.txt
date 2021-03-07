@@ -1,25 +1,3 @@
-Input Format
-First line: Number of Test Cases T and then follows their description
-For each test case,
-first row indicate N M s (single space separated)
-where,
-N is number of vertices in directed graph where vertices are labelled 1 to N (not 0 indexing)
-M is the number of edges and
-s is the index of source vertex
-And then M rows mentioning u v w(u,v) (single space separated, where u and v are vertex ids and w is
-weight, Safely assume all edge weights are non-negative, else print -1 for the output)
-
-Output Format:-
-T, no of test cases
-Output row for each test case has 2N+1+1 entries (all single space separated)
-where first entry is the total sum of min cost arborescence
-and then N entries corresponding to vertices V1, V2, V3..., VN providing the distance of i-th vertex from the
-source vertex s. (Indicate -1 if unreachable)
-and then Symbol #
-and then N entries (corresponding to vertices V1, V2, V3..., VN) providing the label of the parent node through
-which one reaches i-th vertex (basically second last node in path from source vertex to that i-th vertex. (Indicate
-0 if no parent i.e. for source vertex and -1 if vertex i not reachable)
-
 Sample Test case:-
 1
 10 30 3
