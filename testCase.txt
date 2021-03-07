@@ -20,6 +20,7 @@ and then N entries (corresponding to vertices V1, V2, V3..., VN) providing the l
 which one reaches i-th vertex (basically second last node in path from source vertex to that i-th vertex. (Indicate
 0 if no parent i.e. for source vertex and -1 if vertex i not reachable)
 
+Sample Test case:-
 1
 10 30 3
 6 2 24
